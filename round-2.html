@@ -4,12 +4,112 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles-round2.css">
     <title>Jeopardy</title>
-    <script src="./scripts/index.js" type="module"></script>
   </head>
+  
   <body>
-    <h1>Second Round</h1>
-    <!-- Do not change the script source. Allows import/export to work. -->
+        <!-- Do not change the script source. Allows import/export to work. -->
+        <script src="./scripts/index.js" type="module"></script>
+
+    <h1>SECOND ROUND</h1>
+
+    <div class = "player-turn">PLAYER TURN</div>
+
+
+  
+
+    <table class="table">
+      <thead>
+      <tr class="category-row">
+        <td>CATEGORY</td>
+        <td>CATEGORY</td>
+        <td>CATEGORY</td>
+        <td>CATEGORY</td>
+        <td>CATEGORY</td>
+        <td>CATEGORY</td>
+      </tr>
+    </thead>
+
+      <tr class="row1">
+        <td>200</td>
+        <td>200</td>
+        <td>200</td>
+        <td>200</td>
+        <td>200</td>
+        <td>200</td>
+      </tr>
+
+      <tr class="row2">
+        <td>400</td>
+        <td>400</td>
+        <td>400</td>
+        <td>400</td>
+        <td>400</td>
+        <td>400</td>
+      </tr>
+
+      <tr class="row3">
+        <td>600</td>
+        <td>600</td>
+        <td>600</td>
+        <td>600</td>
+        <td>600</td>
+        <td>600</td>
+      </tr>
+
+      <tr class="row4">
+        <td>800</td>
+        <td>800</td>
+        <td>800</td>
+        <td>800</td>
+        <td>800</td>
+        <td>800</td>
+      </tr>
+
+      <tr class="row5">
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+      </tr>
+
+      
+    </table>
+
+
+      <!-- above is a table consisting of all the rows and columns for round 1 -->
+
+
+  <div class="parent-container-form">
+`  <!-- container for button and both forms-->
+
+      <input class= "user-input" placeholder="User input..."> </input>
+
+      <div class="button-container"> 
+
+            <button class = "button">GUESS</button> 
+            <button class = "button">PASS</button> 
+        </div>
+   </div>
+
+
+  
+   <div class="parent-container-score">
+       <!-- container for both user scores -->
+
+        <div>Player 1 Score: 0</div> 
+        <div>Player 2 Score: 0</div> 
+  </div>
+
+
+  <button class = "next-round" onclick = "window.location.href='final-jeopardy.html';">Next Round</button>
+  <!-- button that sends user to final round -->
+
+  <footer>FOOTER SITE INFORMATION</footer>
+
     <script src="./scripts/index.js" type="module"></script>
   </body>
 </html>
